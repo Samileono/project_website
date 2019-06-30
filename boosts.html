@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DarDingli | DarDingli</title>
+    <title>DarDingli | DarDingli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Real Estate Website" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+    <!--- Boostratp CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--end -->
+
+    <style type="text/css">
+        /* For OVerding the background of black from the style.css for html, body! */
+        html,
+        body {
+            background-color: #eae6e6ed !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg w-100 custom-bg">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="img-fluid" style="height: auto;
+                width: 11vw;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon " style="color: white; transform: rotate(270deg);">|||</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link custom-bg-item" href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link custom-navbar-item-link" href="#">EUR (€) <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle  custom-navbar-item-link" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-briefcase"></i> Professional
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown d-flex align-items-center justify-md-content-center">
+                    <img class="custom-img" src="assets/images/user_image.png">
+                    <a class="nav-link dropdown-toggle  custom-navbar-item-link" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-briefcase"></i> My Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container ">
+        <div class="custom-nav-bar">
+            <div class="boxes  d-flex justify-content-around  align-items-center c-flex">
+                <a href="#" class="box  text-center active">
+                    <div class="icon">
+                        <i class="fas fa-clinic-medical  fa-1x text-brown"></i>
+                    </div>
+                    <p class="small text-danger">General</p>
+                </a>
+                <a href="myPosts.html" class="box text-center">
+                    <div class="icon">
+                        <i class="fas fa-home  fa-1x text-brown"></i>
+                    </div>
+                    <p class="small text-danger">My Posts</p>
+                </a>
+                <a href="myAlerts.html" class="box text-center">
+                    <div class="icon"><i class="far fa-bell  fa-1x text-brown"></i> </div>
+                    <p class="small text-danger">My Alerts</p>
+                </a>
+                <a class="box text-center">
+                    <div class="icon"> <i class="far fa-heart  fa-1x text-brown"></i></div>
+                    <p class="small text-danger">My Favourite</p>
+                </a>
+                <a href="myMessages.html" class="box text-center">
+                    <div class="icon"><i class="fab fa-facebook-messenger  fa-1x text-brown"></i> </div>
+                    <p class="small text-danger">My Messeges</p>
+                </a>
+                <a href="myReviews.html" class="box text-center">
+                    <div class="icon"><i class="fas fa-search  fa-1x text-brown "></i> </div>
+                    <p class="small text-danger">Review</p>
+                </a>
+                <a href="myProfile.html" class="box text-center">
+                    <div class="icon"><i class="fas fa-user-circle  fa-1x text-brown"></i> </div>
+                    <p class="small text-danger">My Profile</p>
+                </a>
+                <a href="agreement.html" class="box text-center">
+                    <div class="icon">
+                        <i class="fab fa-dochub  fa-1x text-brown"></i>
+                    </div>
+                    <p class="small text-danger">Agreement Templates</p>
+                </a>
+                <a href="boosts.html" class="box text-center warning">
+                    <div class="icon">
+                        <i class="fas fa-bolt  fa-1x text-brown"></i>
+                    </div>
+                    <p class="small text-danger">Boosts</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- custom navbar ends here -->
+        <div class="d-2-grid">
+
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+                <h3 class="h3 text-dark">Boosts</h3>
+                <div class="c-top-content d-flex justify-content-between align-items-center">
+                    <i class="fas fa-star text-warning fa-2x"></i>
+                    <div class="s-lg-box bg-warning">
+                        <p class="mb-0 f-small text-white ">Highlight</p>
+                    </div>
+                    <h3 class="text-dark h3 mb-0">Posts</h3>
+                </div>
+                <div class="c-secondary-top-content">
+                    <p class="text-dark mb-0 font-weight-bold">3x more visiblity for your post</p>
+                </div>
+                <div class="c-body">
+                    <p class="text-dark small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sit
+                        debitis
+                        est
+                        illum. Eligendi,
+                        praesentium?</p>
+                    <div class="c-list-items">
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-warning"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-warning"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 class="text-warning h3">1/3</h3>
+                    <a href="#" class="text-dark">See My Posts</a>
+                    <div class="s-lg-box bg-warning py-2">
+                        <p class="mb-0 f-small text-white">Highlight</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-between align-items-center ">
+                    <i class="fas fa-long-arrow-alt-down text-success font-weight-bold fa-1x"></i>
+                    <span class="text-success font-weight-bold">€</span>
+                    <div class="s-lg-box bg-success">
+                        <p class="mb-0 f-small text-white ">Discounted</p>
+                    </div>
+                    <h3 class="text-dark h3 mb-0">Property</h3>
+                </div>
+                <div class="c-secondary-top-content">
+                    <p class="text-dark mb-0 font-weight-bold">You will attract many more buyers</p>
+                </div>
+                <div class="c-body">
+                    <p class="text-dark small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sit
+                        debitis
+                        est
+                        illum. Eligendi,
+                        praesentium?</p>
+                    <div class="c-list-items">
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+
+                        </div>
+                        <p class="text-dark">This product is only available for properties who price has been
+                            reduced!</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-dark">See My Posts</a>
+                            <div class="s-lg-box bg-success">
+                                <p class="mb-0 f-small text-white py-2">Highlight</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-around align-items-center ">
+                    <i class="fas fa-arrow-down text-success fa-1x"></i>
+                    <span class="text-success font-weight-bold">€</span>
+                    <div class="s-lg-box bg-success">
+                        <p class="mb-0 f-small text-white ">Below Average Price</p>
+                    </div>
+
+                </div>
+                <div class="c-secondary-top-content">
+                    <p class="text-dark mb-0 font-weight-bold">If you want you will have no competition</p>
+                </div>
+                <div class="c-body">
+                    <p class="text-dark small">It will be active for 30 days for €14.95</p>
+                    <div class="c-list-items">
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-success"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+
+                        </div>
+                        <p class="text-dark">This product is only available for properties who price has been
+                            reduced!</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-dark">See My Posts</a>
+                            <div class="s-lg-box bg-success">
+                                <p class="mb-0 f-small text-white py-2">Highlight</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-around align-items-center ">
+                    <i class="fas fa-arrow-up text-danger fa-1x font-weight-bold"></i>
+                    <span class="text-danger font-weight-bold ">5</span>
+                    <div class="s-lg-box bg-danger">
+                        <p class="mb-0 f-small text-white ">BUMP YOUR AD-5 POSITIONS</p>
+                    </div>
+
+                </div>
+                <div class="c-secondary-top-content">
+                    <p class="text-dark mb-0 font-weight-bold">Buy</p>
+                </div>
+                <div class="c-body">
+                    <p class="text-dark small">The price is €14.95 per boost</p>
+                    <div class="c-list-items">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-dark">See My Posts</a>
+                            <div class="s-lg-box bg-danger">
+                                <p class="mb-0 f-small text-white py-2">Buy this product</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-around align-items-center ">
+                    <i class="fas fa-arrow-up text-danger fa-1x font-weight-bold"></i>
+                    <span class="text-danger font-weight-bold ">10</span>
+                    <div class="s-lg-box bg-danger">
+                        <p class="mb-0 f-small text-white ">BUMP YOUR AD-10 POSITIONS</p>
+                    </div>
+
+                </div>
+                <div class="c-secondary-top-content">
+                    <p class="text-dark mb-0 font-weight-bold">Buy</p>
+                </div>
+                <div class="c-body">
+                    <p class="text-dark small">The price is €14.95 per boost</p>
+                    <div class="c-list-items">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-dark">See My Posts</a>
+                            <div class="s-lg-box bg-danger">
+                                <p class="mb-0 f-small text-white py-2">Buy this product</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-between align-items-center">
+                    <i class="fas fa-star text-warning fa-2x"></i>
+                    <div class="s-lg-box bg-warning">
+                        <p class="mb-0 f-small text-white ">Opportunity Pack</p>
+                    </div>
+                    <h3 class="text-dark h3 mb-0">Posts</h3>
+                </div>
+                <div class="c-secondary-top-content">
+                    <p class="text-dark mb-0 font-weight-bold">You will get 5 times more visists</p>
+                </div>
+                <div class="c-body">
+                    <p class="text-dark small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sit
+                        debitis
+                        est
+                        illum. Eligendi,
+                        praesentium?</p>
+                    <div class="c-list-items">
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-warning"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="list-item d-flex">
+                            <div class="px-1">
+                                <i class="fas fa-check-circle text-warning"></i>
+                            </div>
+                            <div class="c-desc">
+                                <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+                                    alias aliquam,
+                                    recusandae
+                                    ex esse deserunt.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <h3 class="text-warning h3">1/3</h3>
+                    <a href="#" class="text-dark">See My Posts</a>
+                    <div class="s-lg-box bg-warning py-2">
+                        <p class="mb-0 f-small text-white">Highlight</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-between align-items-center">
+                    <p class="text-dark-pink mb-0">30d</p>
+                    <div class="s-lg-box bg-dark-pink">
+                        <p class="mb-0 f-small text-white ">Prior Position 30 days</p>
+                    </div>
+                    <h6 class="text-dark h6 mb-0">€49.95</h6>
+                    <a href="#" class="btn bg-dark-pink  text-white c-border-radius px-3 d-inline-block">Buy</a>
+                </div>
+
+            </div>
+            <div class="c-card light-bg px-3 py-2" style="width: auto; border-top-left-radius: 30px;">
+
+                <div class="c-top-content d-flex justify-content-between align-items-center">
+                    <p class="text-dark-pink mb-0">24h</p>
+                    <div class="s-lg-box bg-dark-pink">
+                        <p class="mb-0 f-small text-white ">Prior Position 24 hours</p>
+                    </div>
+                    <h6 class="text-dark h6 mb-0">€4.95</h6>
+                    <a href="#" class="btn bg-dark-pink  text-white c-border-radius px-3 d-inline-block">Buy</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

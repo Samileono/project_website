@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DarDingli | DarDingli</title>
+    <title>DarDingli | DarDingli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Real Estate Website" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+    <!--- Boostratp CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--end -->
+
+    <style type="text/css">
+        /* For OVerding the background of black from the style.css for html, body! */
+        html,
+        body {
+            background-color: #eae6e6ed !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg w-100 custom-bg">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="img-fluid" style="height: auto;
+                        width: 11vw;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon " style="color: white; transform: rotate(270deg);">|||</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link custom-bg-item" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link custom-navbar-item-link" href="#">EUR (€) <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  custom-navbar-item-link" href="#"
+                            id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="fas fa-briefcase"></i> Professional
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown d-flex align-items-center justify-md-content-center">
+                        <img class="custom-img" src="assets/images/user_image.png">
+                        <a class="nav-link dropdown-toggle  custom-navbar-item-link" href="#"
+                            id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="fas fa-briefcase"></i> My Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class=" light-bg ">
+            <div class="custom-nav-bar">
+                <div class="boxes  d-flex justify-content-around  align-items-center c-flex">
+                    <a href="#" class="box  text-center active">
+                        <div class="icon">
+                            <i class="fas fa-clinic-medical  fa-1x text-brown"></i>
+                        </div>
+                        <p class="small text-danger">General</p>
+                    </a>
+                    <a href="myPosts.html" class="box text-center">
+                        <div class="icon">
+                            <i class="fas fa-home  fa-1x text-brown"></i>
+                        </div>
+                        <p class="small text-danger">My Posts</p>
+                    </a>
+                    <a href="myAlerts.html" class="box text-center">
+                        <div class="icon"><i class="far fa-bell  fa-1x text-brown"></i> </div>
+                        <p class="small text-danger">My Alerts</p>
+                    </a>
+                    <a class="box text-center">
+                        <div class="icon"> <i class="far fa-heart  fa-1x text-brown"></i></div>
+                        <p class="small text-danger">My Favourite</p>
+                    </a>
+                    <a href="myMessages.html" class="box text-center">
+                        <div class="icon"><i class="fab fa-facebook-messenger  fa-1x text-brown"></i> </div>
+                        <p class="small text-danger">My Messeges</p>
+                    </a>
+                    <a href="myReviews.html" class="box text-center">
+                        <div class="icon"><i class="fas fa-search  fa-1x text-brown "></i> </div>
+                        <p class="small text-danger">Review</p>
+                    </a>
+                    <a href="myProfile.html" class="box text-center">
+                        <div class="icon"><i class="fas fa-user-circle  fa-1x text-brown"></i> </div>
+                        <p class="small text-danger">My Profile</p>
+                    </a>
+                    <a href="agreement.html" class="box text-center">
+                        <div class="icon">
+                            <i class="fab fa-dochub  fa-1x text-brown"></i>
+                        </div>
+                        <p class="small text-danger">Agreement Templates</p>
+                    </a>
+                    <a href="boosts.html" class="box text-center warning">
+                        <div class="icon">
+                            <i class="fas fa-bolt  fa-1x text-brown"></i>
+                        </div>
+                        <p class="small text-danger">Boosts</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- custom navbar ends here -->
+        </div>
+
+        <div class="post-container container d-3-grid c-flex mt-3">
+            <div style="overflow: hidden;" class="card custom-card " style="width: 100%; height: 250px;">
+                <div class="card-top-content w-100  d-flex justify-content-between">
+                    <div>
+                        <a href="#" class="card-top-btn text-white">New</a>
+                        <p class="d-inline-block card-top-text text-white">Posted 1 day ago</p>
+                        <a href="#" class="card-top-btn2 d-block text-uppercase text-white">Discounted</a>
+                    </div>
+                    <div class="mr-2">
+                        <i class="far fa-heart text-white"></i>
+                    </div>
+                </div>
+                <img class="card-img-top" style="height: 250px;" src="assets/images/card-image1.jpeg"
+                    alt="Card image cap">
+
+                <div class="card-custom-footer">
+                    <div class="card-bottom-content custom-dark-shadow w-100">
+                        <div class="d-flex justify-content-between    align-items-center">
+                            <p class="mb-0 text-white custom-class">Apparment in msida</p>
+                            <div class="icon-text-container custom-class">
+                                <i class="fas fa-camera-retro text-white font-weight-bold"></i>
+                                <a href="#" class="text-white font-weight-bold">1/8</a>
+                            </div>
+                        </div>
+                        <div style="width: 100%;" class="d-flex justify-content-between ">
+                            <p class="card-white custom-class">1, 000 € /month</p>
+                            <a href="#" class="text-white custom-class">has been reduced €
+                                100/month</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex  justify-content-around w-100 card-first-level-bottom-content bg-dark-custom">
+                    <div class="i-container">
+                        <i class="fas fa-bed"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+
+                    <div class="i-container">
+                        <i class="fas fa-shower"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                    <div class="i-container">
+                        <i class="fas fa-chart-area"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+            <div style="overflow: hidden;" class="card custom-card " style="width: 100%; height: 250px;">
+                <div class="card-top-content w-100  d-flex justify-content-between">
+                    <div>
+                        <a href="#" class="card-top-btn text-white">New</a>
+                        <p class="d-inline-block card-top-text text-white">Posted 1 day ago</p>
+                        <a href="#" class="card-top-btn2 d-block text-uppercase text-white">Discounted</a>
+                    </div>
+                    <div class="mr-2">
+                        <i class="far fa-heart text-white"></i>
+                    </div>
+                </div>
+                <img class="card-img-top" style="height: 250px;" src="assets/images/card-image1.jpeg"
+                    alt="Card image cap">
+
+                <div class="card-custom-footer">
+                    <div class="card-bottom-content custom-dark-shadow w-100">
+                        <div class="d-flex justify-content-between    align-items-center">
+                            <p class="mb-0 text-white custom-class">Apparment in msida</p>
+                            <div class="icon-text-container custom-class">
+                                <i class="fas fa-camera-retro text-white font-weight-bold"></i>
+                                <a href="#" class="text-white font-weight-bold">1/8</a>
+                            </div>
+                        </div>
+                        <div style="width: 100%;" class="d-flex justify-content-between ">
+                            <p class="card-white custom-class">1, 000 € /month</p>
+                            <a href="#" class="text-white custom-class">has been reduced €
+                                100/month</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex  justify-content-around w-100 card-first-level-bottom-content bg-dark-custom">
+                    <div class="i-container">
+                        <i class="fas fa-bed"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+
+                    <div class="i-container">
+                        <i class="fas fa-shower"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                    <div class="i-container">
+                        <i class="fas fa-chart-area"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+            <div style="overflow: hidden;" class="card custom-card " style="width: 100%; height: 250px;">
+                <div class="card-top-content w-100  d-flex justify-content-between">
+                    <div>
+                        <a href="#" class="card-top-btn text-white">New</a>
+                        <p class="d-inline-block card-top-text text-white">Posted 1 day ago</p>
+                        <a href="#" class="card-top-btn2 d-block text-uppercase text-white">Discounted</a>
+                    </div>
+                    <div class="mr-2">
+                        <i class="far fa-heart text-white"></i>
+                    </div>
+                </div>
+                <img class="card-img-top" style="height: 250px;" src="assets/images/card-image1.jpeg"
+                    alt="Card image cap">
+
+                <div class="card-custom-footer">
+                    <div class="card-bottom-content custom-dark-shadow w-100">
+                        <div class="d-flex justify-content-between    align-items-center">
+                            <p class="mb-0 text-white custom-class">Apparment in msida</p>
+                            <div class="icon-text-container custom-class">
+                                <i class="fas fa-camera-retro text-white font-weight-bold"></i>
+                                <a href="#" class="text-white font-weight-bold">1/8</a>
+                            </div>
+                        </div>
+                        <div style="width: 100%;" class="d-flex justify-content-between ">
+                            <p class="card-white custom-class">1, 000 € /month</p>
+                            <a href="#" class="text-white custom-class">has been reduced €
+                                100/month</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex  justify-content-around w-100 card-first-level-bottom-content bg-dark-custom">
+                    <div class="i-container">
+                        <i class="fas fa-bed"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+
+                    <div class="i-container">
+                        <i class="fas fa-shower"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                    <div class="i-container">
+                        <i class="fas fa-chart-area"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+            <div style="overflow: hidden;" class="card custom-card " style="width: 100%; height: 250px;">
+                <div class="card-top-content w-100  d-flex justify-content-between">
+                    <div>
+                        <a href="#" class="card-top-btn text-white">New</a>
+                        <p class="d-inline-block card-top-text text-white">Posted 1 day ago</p>
+                        <a href="#" class="card-top-btn2 d-block text-uppercase text-white">Discounted</a>
+                    </div>
+                    <div class="mr-2">
+                        <i class="far fa-heart text-white"></i>
+                    </div>
+                </div>
+                <img class="card-img-top" style="height: 250px;" src="assets/images/card-image1.jpeg"
+                    alt="Card image cap">
+
+                <div class="card-custom-footer">
+                    <div class="card-bottom-content custom-dark-shadow w-100">
+                        <div class="d-flex justify-content-between    align-items-center">
+                            <p class="mb-0 text-white custom-class">Apparment in msida</p>
+                            <div class="icon-text-container custom-class">
+                                <i class="fas fa-camera-retro text-white font-weight-bold"></i>
+                                <a href="#" class="text-white font-weight-bold">1/8</a>
+                            </div>
+                        </div>
+                        <div style="width: 100%;" class="d-flex justify-content-between ">
+                            <p class="card-white custom-class">1, 000 € /month</p>
+                            <a href="#" class="text-white custom-class">has been reduced €
+                                100/month</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex  justify-content-around w-100 card-first-level-bottom-content bg-dark-custom">
+                    <div class="i-container">
+                        <i class="fas fa-bed"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+
+                    <div class="i-container">
+                        <i class="fas fa-shower"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                    <div class="i-container">
+                        <i class="fas fa-chart-area"></i>
+                        <span>x</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

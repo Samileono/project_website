@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <title>DarDingli | DarDingli</title>
+    <title>DarDingli | DarDingli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Real Estate Website" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+    <!--- Boostratp CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--end -->
+
+    <style type="text/css">
+        /*
+		For OVerding the background of black from the style.css for html, body!
+	*/
+        html,
+        body {
+            background-color: #fff !important;
+
+        }
+
+        .custom-container {
+            position: relative;
+            z-index: 999;
+           
+        }
+       
+       .custom-container::before {
+            content: "";
+            background: url("assets/images/D.png") no-repeat center /cover;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            position: absolute;
+       }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg w-100 custom-bg">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="img-fluid" style="height: auto;
+                width: 11vw;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon " style="color: white; transform: rotate(270deg);">|||</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link custom-bg-item" href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link custom-navbar-item-link" href="#">EUR (€) <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle  custom-navbar-item-link" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-briefcase"></i> Professional
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown d-flex align-items-center justify-md-content-center">
+                    <img class="custom-img" src="assets/images/user_image.png">
+                    <a class="nav-link dropdown-toggle  custom-navbar-item-link" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-briefcase"></i> My Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="custom-container mt-4 py-2">
+        <h3 class="text-dark text-center h3">Professional Registration in DarDingli</h3>
+        <a href="#" class="bg-pink-btn mx-auto">I am an individual</a>
+        <div class="boxes d-flex justify-content-around flex-md-row c-flex align-items-center mt-3">
+            <a href="loginform.html" class="box d-flex justify-content-center flex-column">
+                <i class="far fa-user text-dark fa-2x text-center"></i>
+                <p class="text-dark text-center">Agent From Agency</p>
+            </a>
+            <a href="agen2.html" class="box d-flex justify-content-center flex-column">
+                <i class="fas fa-building fa-2x text-dark text-center"></i>
+                <p class="text-dark text-center">Agency</p>
+            </a>
+            <a href="otherp.html" class="box d-flex flex-column justify-content-center">
+                <div class="d-flex justify-content-around">
+                    <i class="far fa-user text-dark fa-2x text-center"></i>
+                    <i class="fas fa-building fa-2x text-dark text-center"></i>
+                </div>
+                <p class="text-dark ">Other Professionals</p>
+            </a>
+        </div>
+
+        <form action="" class="c-f-group form-group">
+            <div class="mb-2 c-input">
+                <input type="text" class="form-control" placeholder="Enter username..">
+            </div>
+            <div class="c-input">
+                <input type="password" class="form-control" placeholder="Enter password..">
+            </div>
+            <div class="c-input">
+                <input type="password" class="form-control" placeholder="Agency..">
+            </div>
+            <div>
+                <a class="nav-link dropdown-toggle  custom-navbar-item-link c-dropdown" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Lettings
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+            <div class="c-input">
+                <input type="password" class="form-control" placeholder="password..">
+            </div>
+            <div class="c-input2">
+                <div class="d-flex align-items-center mb-3">
+                    <input type="checkbox" class="form-control mr-2" style="width: 30px">
+                    <p class="info-text text-dark mb-0">I accept terms and conditions, the basic info of data
+                        privacy
+                    </p>
+                </div>
+            </div>
+            <div class="c-input2 white-bg-btn">
+                <a href="#">Create My Account</a>
+            </div>
+        </form>
+</body>
+
+</html>
